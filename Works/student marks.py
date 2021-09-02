@@ -1,0 +1,9 @@
+sub1=float(input("enter subject1 marks:"))
+sub2=float(input("enter subject2 marks:"))
+sub3=float(input("enter subject3 marks:"))
+sub4=float(input("enter subject4 marks:"))
+sub5=float(input("enter subject5 marks:"))
+Total=sub1+sub2+sub3+sub4+sub5
+print("Total marks=", Total)
+Average=Total/5
+print("Average Marks=", Average)
