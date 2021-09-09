@@ -1,0 +1,12 @@
+div{
+    height: 80px;
+    background-color: lightslategrey;
+    border: 3px solid black;
+    width: 50%;
+    margin-left: 300px;
+    padding: 30px;
+
+}
+.foot{
+    margin-top: 350px;
+}

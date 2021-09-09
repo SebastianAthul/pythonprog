@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    background-color: black;
+}
+h1{
+    color:white;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+div{
+    height: 200px;
+    width: 150px;
+    float:left;
+    margin-left: -3px;
+    margin-right: 9px;
+    
+}
+.one{
+    background-color: grey;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: lightgreen;
+}
+.four{
+    background-color: limegreen;
+}
+.five{
+    background-color: lightgray;
+}
