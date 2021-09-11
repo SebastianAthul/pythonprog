@@ -10,14 +10,15 @@ font-family: 'Open Sans Condensed', sans-serif;
     
 }
 div{
-    height: 200px;
+    height: 180px;
     width: 150px;
     float:left;
-    margin-left: -3px;
-    margin-right: 9px;
+    border: 2px solid black;
+    
     
 }
 .one{
+    margin-left: 297px;
     background-color: grey;
 }
 .two{
