@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +10,31 @@
     <script src="https://kit.fontawesome.com/338f7d3834.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
-    <div class="title">
-        <i class="fab fa-5x fa-github"></i>
-        <h1>Sign in to GitHub</h1>
-    </div>
-    <fieldset class="area">
-        <form action="">
-            <label for="fname">UserName or Email address</label> <br>
-            <input type="email,text" name="" id="fname" placeholder="name"> <br> <br>
 
-            <label for="pass">Password</label> <br>
-            <input type="text" name="" id="pass" placeholder="password"> <br>
+<body>
+    <h1 class="title">
+        <i class="fab fa-2x fa-github"></i>
+
+    </h1>
+    <h1 class="titlename">Sign in to GitHub</h1>
+    <div class="loginbox">
+        <form action="">
+            <label for="username">Username or email address</label><br>
+            <input type="text" name="" id="username" size=30> <br><br>
+            <label for="password">Password</label><a id="set"href="">forgot password?</a><br>
+            <input type="text" name="" id="password" size=30><br><br>
+            <button id="press" type="submit">Sign In</button>
 
         </form>
-        <button type="submit">SignIn</button>
-    </fieldset>
-    
 
-    
+
+    </div>
+    <p class="para">New to GitHub? <a href="">create an account</a></p>
+    <footer>
+        <p class="bottom"><a href="">Terms</a>   <a id="privacy" href=>privacy</a>   <a href="">security</a>   Contact GitHub</p>
+    </footer>
+
+
 </body>
+
 </html>
