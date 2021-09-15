@@ -1,0 +1,12 @@
+.row{
+    width: 90%;
+    height: 50px;
+    background-color:lightsteelblue;
+    border: 1px solid black;
+    margin-left: 50px;
+    display:flex;
+    justify-content: flex-end;
+}
+h3{
+    flex: 0.07;
+}
