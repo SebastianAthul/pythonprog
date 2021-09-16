@@ -1,0 +1,55 @@
+.Header{
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    width: 95%;
+    height:70px;
+    margin:auto;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body{
+    background-color: #FAD961;
+background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
+}
+.col{
+    font-size: larger;
+    margin: 8px;
+}
+div a{
+    text-decoration: none;
+    color: Black;
+}
+div a:hover{background-color:orange;
+border-radius: 40px;}
+img{
+    height:400px;
+    width:300px;
+}
+
+.poster{
+    
+    margin-top: 17px;
+    margin-left: 8px;
+    width:98%;
+    height:400px;
+    border:1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media(max-width:500px){
+    .poster{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    
+
+}
+  
